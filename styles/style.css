@@ -5,10 +5,12 @@
     font-family: 'Source Sans Pro', sans-serif;
 
 }
+
 .container {
     max-width: 1366px;
     margin: 0 auto;
 }
+
 .btn-primary {
     font-family: 'Open Sans';
     font-style: normal;
@@ -20,6 +22,7 @@
     padding: 18px 35px;
     background: #f15b22;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 /* banner section start */
@@ -45,11 +48,13 @@
     margin-left: auto;
 
 }
+
 .hero-title {
     font-size: 70px;
     font-weight: 800;
 }
-.short-description{
+
+.short-description {
     font-size: 18px;
     color: rgb(38, 38, 38);
     padding: 30px 0px 30px 0px;
@@ -57,61 +62,74 @@
 }
 
 /* my failures section start */
-.my-failures{
+.my-failures {
     padding: 100px 0px;
 }
-.flex-wrap{
+
+.flex-wrap {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 100px;
 }
-.failure-content{
+
+.failure-content {
     padding-right: 20%;
 }
-.section-title{
+
+.section-title {
     font-size: 45px;
 }
-.check-list li{
+
+.check-list li {
     list-style: none;
     font-size: 18px;
     color: rgb(38, 38, 38);
     padding-bottom: 10px;
 }
-.check-list li i{
+
+.check-list li i {
     color: #16d887;
     margin-right: 10px;
 }
+
 /* my plans section */
-.my-plan{
+.my-plan {
     padding-bottom: 100px;
 }
-.section-title.plan{
+
+.section-title.plan {
     text-align: center;
     margin-bottom: 50px;
 }
-.singl-plan{
+
+.singl-plan {
     text-align: center;
 }
-.plan-icon{
+
+.plan-icon {
     max-width: 100%;
 }
-.plan-title{
+
+.plan-title {
     text-align: center;
     margin: 15px 0px;
     font-size: 30px;
 }
-.plan-description{
+
+.plan-description {
     text-align: center;
     font-size: 25px;
     color: rgb(38, 38, 38);
 }
+
 /* positive mindset section */
-.positive-mindset{
+.positive-mindset {
     margin-bottom: 100px;
     margin-top: 20px;
 }
-.mindset-banner{
+
+.mindset-banner {
     background: url('../images/watch.png');
     background-repeat: no-repeat;
     background-position: bottom left;
@@ -121,61 +139,76 @@
     position: relative;
     z-index: -2;
 }
-.mindset-banner::after{
+
+.mindset-banner::after {
     position: absolute;
     content: '';
     background: url("../images/gradient3.png");
-    background-repeat: no-repeat; 
-    top:0;right:0;bottom:0;left:0;
+    background-repeat: no-repeat;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
     background-size: cover;
     background-position: bottom left;
     z-index: -1;
     border-radius: 10px;
 }
 
-.section-title.white{
+.section-title.white {
     color: #fff;
     z-index: 9999;
-    
+
 }
-.btn-primary.call{
+
+.btn-primary.call {
     color: #f15b22;
     background: #FFFFFF;
     display: inline-block;
     margin-top: 20px;
     z-index: 9999;
-    
+    cursor: pointer !important;
+
 }
+
 /* footer section */
-footer{
-background: #151414;
-padding: 100px 0px;
+footer {
+    background: #151414;
+    padding: 100px 0px;
 }
-.footer-left{
+
+.footer-left {
     width: 50%;
 }
-.short-description.white{
+
+.short-description.white {
     color: #FFFFFF;
     line-height: 150%;
 }
-.persion-info a{
+
+.persion-info a {
     color: #FFFFFF;
     text-decoration: none;
     font-size: 18px;
     display: block;
     margin-bottom: 20px;
 }
-.social a{
-    margin-right: 15px;;
+
+.social a {
+    margin-right: 15px;
+    ;
 }
-.flex-wrap.footer{
-   align-items: inherit;
+
+.flex-wrap.footer {
+    align-items: inherit;
 }
-.plan-title.white{
+
+.plan-title.white {
     color: #fff;
     text-align: left;
 }
-form input[type='email']{
+
+form input[type='email'] {
     border: 1px solid #fff;
     border-radius: 5px;
     font-size: 20px;
@@ -185,27 +218,33 @@ form input[type='email']{
     margin: 10px 0px 20px 0px;
     background: none;
 }
+
 /* latest blog */
-.latest-blog{
+.latest-blog {
     margin-bottom: 100px;
 }
-.singl-blog{
+
+.singl-blog {
     border-radius: 5px;
     background: #e8e8e8;
 }
-.blog-info{
+
+.blog-info {
     padding: 20px 25px;
 }
-.date-author{
+
+.date-author {
     display: flex;
     justify-content: space-between;
 }
-.blog-title{
+
+.blog-title {
     font-size: 22px;
     margin: 15px 0px;
     font-weight: 600;
 }
-.blog-image{
+
+.blog-image {
     width: 100%;
     border-radius: 5px 5px 0px 0px;
 
